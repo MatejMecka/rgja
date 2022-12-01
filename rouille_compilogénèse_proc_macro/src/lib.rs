@@ -41,7 +41,7 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "внеси" => "insert",
         "земи" => "get",
         "дозволи" => "allow",
-        "паника" | "calisse" | "oups" => "panic",
+        "паника" | "ебате" | "оопс" => "panic",
         "модул" => "mod",
         "променливо" => "mut",
         "ново" => "new",
